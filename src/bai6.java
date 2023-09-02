@@ -1,16 +1,16 @@
 import java.util.Scanner;
-
+//// copy google
 public class bai6 {
     public static void main(String[] args) {
-        int n, soDu, tong = 0;
-        Scanner scanner = new Scanner(System.in);
+        int p, s = 0; //p la so du. s la tong
+
         System.out.println("Nhập vào số nguyên dương bất kỳ: ");
-        n = scanner.nextInt();
+        int n = new Scanner(System.in).nextInt();
         while (n > 0) {
-            soDu = n % 10;
+            p = n % 10;
             n = n / 10;
-            tong += soDu;
+            s += p;
         }
-        System.out.println("Tổng các chữ số = " + tong);
+        System.out.println("Tổng các chữ số = " + s);
     }
 }

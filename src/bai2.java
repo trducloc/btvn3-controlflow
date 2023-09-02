@@ -13,6 +13,6 @@ public class bai2 {
                 x++;
             }
         }
-        System.out.println("\n Số lượng ước số của " +n+ " là: " +x);
+        System.out.println("\nSố lượng ước số của " +n+ " là: " +x);
     }
 }
